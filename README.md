@@ -55,12 +55,8 @@ To install the library, run `pip install unstructured`.
 
 ## :clap: Quick Tour
 
-You can run this [Colab notebook](https://colab.research.google.com/drive/1RnXEiSTUaru8vZSGbh1U2T2P9aUa5tQD#scrollTo=E_WN7p3JGcLJ) to run the examples below.
-
-The following examples show how to get started with the `unstructured` library.
-You can parse **HTML** and **PDF** documents with one line of code! 
-<br></br>
-See our [documentation page](https://unstructured-io.github.io/unstructured) for a full description
+The following examples show how to get started with the `unstructured` library. See
+our [documentation page](https://unstructured-io.github.io/unstructured) for a full description
 of the features in the library.
 
 ### HTML Parsing
