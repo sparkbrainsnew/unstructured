@@ -12,7 +12,8 @@ class EmailElement(Element):
 
     
 class Name(EmailElement):
-    """Base element for capturing free text from within document."""
+    """Base element for capturing the category and text of that category
+     from within an email documents meta data."""
 
     category = "Uncategorized"
 
