@@ -1,4 +1,17 @@
-## 0.4.5-dev5
+## 0.4.8
+
+* Modified XML and HTML parsers not to load comments.
+
+## 0.4.7
+
+* Added the ability to pull an HTML document from a url in `partition_html`.
+* Added the the ability to get file summary info from lists of filenames and lists
+  of file contents.
+* Added optional page break to `partition` for `.pptx`, `.pdf`, images, and `.html` files.
+* Added `to_dict` method to document elements.
+* Include more unicode quotes in `replace_unicode_quotes`.
+
+## 0.4.6
 
 * Loosen the default cap threshold to `0.5`.
 * Add a `UNSTRUCTURED_NARRATIVE_TEXT_CAP_THRESHOLD` environment variable for controlling
@@ -13,7 +26,11 @@
 * Checks that titles and narrative text are at least 50% alpha characters.
 * Restricts titles to a maximum word length. Adds a `UNSTRUCTURED_TITLE_MAX_WORD_LENGTH`
   environment variable for controlling the max number of words in a title.
+<<<<<<< HEAD
 * Added regex to eliminate script tags as well as strings in between.
+=======
+* Updated `partition_pptx` to order the elements on the page
+>>>>>>> 6d1d50d21891c6648ad17a78fb4b4cf9b914804c
 
 ## 0.4.4
 
